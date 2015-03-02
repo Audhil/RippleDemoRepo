@@ -1,0 +1,30 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Material.Light">
+
+        <!--
+        for action bar
+        <item name="android:colorPrimary">@color/sa_green</item>
+        
+        for status bar
+        <item name="android:colorPrimaryDark">@color/sa_green_dark</item>
+        
+        for PagerTabStrip (of our ViewPager)
+        <item name="android:colorAccent">@color/sa_green</item>
+        -->
+
+
+        <!-- for ripples -->
+        <item name="android:colorControlHighlight">@color/rippleColor</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>
